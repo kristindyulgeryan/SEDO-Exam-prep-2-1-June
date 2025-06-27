@@ -42,9 +42,7 @@ body {
 }
 
 #div {
-  color: blue;
+ bugfix/empty-task
+    color: blue;
 }
 
-#div {
-  color: blue de2029e (Squashed all changes in a single commit);
-}

@@ -24,17 +24,14 @@ list.addEventListener('dblclick', e => {
   if (e.target.tagName === 'LI') {
     e.target.remove();
   }
-
+ bugfix/empty-task
 });
 
 
 
+ main
 // Clear all completed tasks
 const clearBtn = document.getElementById('clear-completed-btn');
 clearBtn.addEventListener('click', () => {
   document.querySelectorAll('#task-list li.completed')
     .forEach(li => li.remove());
-});
-
-// Branch 2
-de2029e (Squashed all changes in a single commit)
